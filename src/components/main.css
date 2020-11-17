@@ -1,0 +1,35 @@
+
+.main {
+    margin-top: 10em;
+}
+
+.principal {
+    margin-left: 3em;
+}
+
+.principal p:nth-child(2), p:nth-child(3) {
+    font-size: 2em;
+    line-height: 0.8em;
+}
+
+.principal p:nth-child(1) {
+    color:#bbb6e6
+}
+
+.principal  p:nth-child(3) {
+    color: #007bff;
+}
+
+.principal  p:nth-child(4) {
+    color: #92999f;
+}
+
+.image {
+    background-image: url("../images/rsz_image.png");
+    background-size: cover;
+    height: 250px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5em;
+}
