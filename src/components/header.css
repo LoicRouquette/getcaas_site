@@ -1,4 +1,59 @@
-.compte {
-    background-color: #2d1fb4;
+
+.nav {
+    width: 57%;
+}
+
+.navbar-brand {
+    width: 120px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.nav-link {
+    padding-right: 0!important;
+}
+.separatenav a:nth-child(2){
+    color: #007bff!important;
+    border: 1px solid #007bff;
+    border-radius: .25rem;
+    padding: .375rem .75rem!important;
+}
+
+.separatenav a:nth-child(2):hover {
+    background-color: #007bff;
     color: white!important;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 54px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .navbar-collapse.collapsing {
+        height: auto;
+        -webkit-transition: left 0.3s ease;
+        -o-transition: left 0.3s ease;
+        -moz-transition: left 0.3s ease;
+        transition: left 0.3s ease;
+        left: -100%;
+    }
+    .navbar-collapse.show {
+        left: 0;
+        -webkit-transition: left 0.3s ease-in;
+        -o-transition: left 0.3s ease-in;
+        -moz-transition: left 0.3s ease-in;
+        transition: left 0.3s ease-in;
+    }
 }

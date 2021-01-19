@@ -70,3 +70,6 @@ yarn-error.log
 
 package-lock.json
 package.json
+gatsby-browser.js
+gatsby-node.js
+gatsby-ssr.js

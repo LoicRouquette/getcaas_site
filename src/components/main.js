@@ -7,9 +7,9 @@ const Main = () => (
         <Col md={6}>
             <div className="principal">
                 <p>LA CONTENEURISATION AU SERVICE DE VOS APPLICATIONS</p>
-                <p>Votre plateforme</p>
-                <p><strong>multicloud simplifiée</strong></p>
-                <p>Créez, gérez et déployez facilement toutes vos applications en quelques clics.</p>
+                <p className="mt-4">Votre plateforme</p>
+                <p className="mt-3"><strong>multicloud simplifiée</strong></p>
+                <p className="mt-4">Créez, gérez et déployez facilement toutes vos applications en quelques clics.</p>
                 <div className="buttons mt-4">
                     <Button variant="primary" href="#">
                         Contactez-nous
